@@ -20,12 +20,16 @@
         </div>
         <div class="col-md-7">
           <div class="graphic">
-            <img src="/img/svg/graphic.svg" alt="" />
+            <img class="image-fluid" src="../assets/images/heroImg.png" />
           </div>
         </div>
       </div>
     </div>
   </div>
+  <br />
+  <br />
+  <br />
+  <hr />
 </template>
 
 <script>
@@ -34,8 +38,8 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style>
+<!-- Scoped to restrict css to only this SFC -->
+<style scoped>
 .hero {
   padding-top: 7rem;
   width: 100%;
